@@ -108,7 +108,7 @@ cy.get('input[name=email]').clear().type('foo').blur()
 
 Type in a field with options, then press enter
 ```js
-cy.get('app-search-ahead-chips').find('input').type('cdh{enter}', { timeout: 2000, delay: 40 });
+cy.get('app-search-ahead-chips').find('input').type('foo{enter}', { timeout: 2000, delay: 40 });
 ```
 
 ## Assertions
@@ -149,8 +149,8 @@ cy.url().should('match', /orders\/[\d]{4}$/);
 
 Assert an element's text matches a regex:
 ```js
-cy.get('p.page-number').should((el) => {
-  expect(el.text()).to.match(/1 of 2/); 
+cy.get('p.page-number').should((elem) => {
+  expect(elem.text()).to.match(/1 of 2/); 
 });
 ```
 
