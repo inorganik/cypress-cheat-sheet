@@ -50,7 +50,7 @@ Reference: [Selector best practices](https://docs.cypress.io/guides/references/b
 
 Select an element:
 ```js
-cy.get([data-cy=submit]')
+cy.get('[data-cy=submit]')
 ```
 
 Select an element within another element:
@@ -88,12 +88,12 @@ cy.get('button.mat-menu-item:contains("Logout")')
 
 Click an element:
 ```js
-cy.get([data-cy=submit]').click()
+cy.get('[data-cy=submit]').click()
 ```
 
 Click a hidden element:
 ```js
-cy.get([data-cy=submit]').click({ force: true })
+cy.get('[data-cy=submit]').click({ force: true })
 ```
 
 Click multiple elements:
