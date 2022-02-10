@@ -113,7 +113,7 @@ cy.get('app-search-ahead-chips').find('input').type('foo{enter}', { timeout: 200
 
 ## Assertions
 
-Reference: [Cypress supported assertions](https://docs.cypress.io/guides/references/assertions
+Reference: [Cypress supported assertions](https://docs.cypress.io/guides/references/assertions)
 
 Assert an element exists:
 ```js
