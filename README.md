@@ -161,7 +161,7 @@ cy.get('@eInput').should('have.value', startVal);
 
 ## Commands
 
-Stub a login call with a valid JWT token:
+Stub a login call with a valid JWT token. This token won't authenticate against your server, but it will be real enough for a UI:
 ```js
 import * as jwt from 'jsonwebtoken';
 
